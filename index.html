@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Менеджер задач</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: #333;
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+        }
+        .scrum-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 TaskFlow - Менеджер задач</h1>
+        
+        <div class="scrum-info">
+            <h3>📊 Scrum процесс:</h3>
+            <p>Этот проект разрабатывается по методологии Scrum. В репозитории смоделирован полный цикл спринта:</p>
+            <ul>
+                <li>Product Backlog: 8 задач в GitHub Issues</li>
+                <li>Sprint Planning: выбрано 5 задач в спринт</li>
+                <li>Daily Standups: отслеживание прогресса</li>
+                <li>Sprint Review & Retrospective: анализ результатов</li>
+            </ul>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h4>✅ Управление задачами</h4>
+                <p>Создание, редактирование и удаление задач</p>
+            </div>
+            <div class="feature-card">
+                <h4>🏷️ Категоризация</h4>
+                <p>Организация задач по тегам и приоритетам</p>
+            </div>
+            <div class="feature-card">
+                <h4>📈 Визуализация</h4>
+                <p>Графики прогресса и статистика выполнения</p>
+            </div>
+            <div class="feature-card">
+                <h4>📱 Адаптивность</h4>
+                <p>Работа на любых устройствах</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div class="status-badge">Лабораторная работа завершена ✅</div>
+            <p style="margin-top: 10px; color: #666;">Используйте GitHub Issues для просмотра смоделированного Scrum процесса</p>
+        </div>
+    </div>
+
+    <script>
+        // Простой скрипт для демонстрации
+        console.log('TaskFlow - Agile/Scrum Lab Project');
+        console.log('Check GitHub Issues for Scrum simulation');
+    </script>
+</body>
+</html>
